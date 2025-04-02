@@ -1,0 +1,132 @@
+
+        /* Button Styling */
+        .contact-button {
+          padding: 10px 20px;
+          background-color: #f98c1c;
+          color: white;
+          border: none;
+          cursor: pointer;
+          font-size: 16px;
+          border-radius: 5px;
+        }
+
+        .contact-button:hover {
+          background-color: #e07b0b;
+        }
+
+        /* Description Box Styling */
+        .contact-description {
+          margin-top: 20px;
+          padding: 15px;
+          background-color: #f1f1f1;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+
+
+
+
+
+        body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          margin: 20px;
+          padding: 0;
+        }
+
+        h1,
+        h2 {
+          color: #3f2103;
+        }
+
+        p {
+          font-size: 16px;
+          color: #333;
+        }
+
+        .highlight {
+          color: #f98c1c;
+          font-weight: bold;
+        }
+      
+
+
+        .theme-switcher {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .theme-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+      margin-left: 10px;
+    }
+    
+    .theme-btn img {
+      width: 24px;
+      height: 24px;
+    }
+    
+    .theme-options {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 120px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    
+    .theme-options.show {
+      display: block;
+    }
+    
+    .theme-option {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      cursor: pointer;
+      margin: 5px 0;
+    }
+    
+    .theme-color {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 1px solid #ddd;
+    }
+    
+    /* Theme classes */
+    .theme-default {
+      /* Your default theme colors */
+      --bg-color: #ffffff;
+      --text-color: #333333;
+      --primary-color: #3498db;
+      --secondary-color: #f1f1f1;
+    }
+    
+    .theme-dark {
+      --bg-color: #1a1a1a;
+      --text-color: #f1f1f1;
+      --primary-color: #4CAF50;
+      --secondary-color: #333333;
+    }
+    
+    .theme-blue {
+      --bg-color: #e6f2ff;
+      --text-color: #003366;
+      --primary-color: #0066cc;
+      --secondary-color: #cce0ff;
+    }
+    
+    .theme-warm {
+      --bg-color: #fff5e6;
+      --text-color: #663300;
+      --primary-color: #ff9933;
+      --secondary-color: #ffe6cc;
+    }

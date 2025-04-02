@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="contect.css">
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body id="body main">
+
+  <nav id="desktop-nav">
+   <div style="width:80px;height:80px;border-radius:50%;overflow:hidden;display:inline-block;border:2px solid #3498db;box-shadow:0 4px 8px rgba(0,0,0,0.1)"><img src="assets/gk-monogram-logo-design-letter-text-name-symbol-monochrome-logotype-alphabet-character-simple-logo_955145-614.avif" alt="GK Logo" style="width:100%;height:100%;object-fit:cover"></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#Get in touch">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Gulshan Kumar</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <link><a href="#about" onclick="toggleMenu()">About</a></link>
+        <link><a href="#experience" onclick="toggleMenu()">Experience</a></link>
+        <link><a href="#projects" onclick="toggleMenu()">Projects</a></link>
+        <link><a href="#Get in touch" onclick="toggleMenu()">Contact</a></link>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src=" assets/my pic.jpg " alt="Gulshan Kumar profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Gulshan Kumar</h1>
+      <p class="section__text__p2">Learning MERN Stack | Frontend Intern (React.js)</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('assets/resume.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#Get in touch'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/Gulshankuamr'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="assets/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966.gif"
+          alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>fareshare <br />Learning MERN Stack | Frontend Intern (React.js)</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.C.A Bachelors Degree<br />M.C.A Masters Degree</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <!-- <div ><p class="text"> INTRODUCTION </p></div> -->
+          <div>
+            <h4 alig="center">My Introduction</h4>
+          </div>
+          <p>
+            A passionate frontend developer and MERN stack learner, currently working as a React.js intern. Skilled in
+            JavaScript, React.js, and database management with MySQL and MongoDB. Focused on building efficient,
+            user-friendly web applications while continuously expanding my expertise.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML||HTML5</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS||CSS3</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript/Js(ES6)</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React.js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Next.js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tailwind CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Bootstrap</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git||GitHub</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node.js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Express.js</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="/assets/1164913b4932faae0fe871859b01684b.gif" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <p>Calculator</p>
+          <p class="tech-used">Technologies: HTML, CSS, JavaScript</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Gulshankumar1450'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://calculator-tau-coral-18.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/book-60.gif.webp" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <p>Tribute-Page</p>
+          <p class="tech-used">Technologies: HTML, CSS,</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Gulshankumar1450'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Gulshankumar1450/tribute-page.html.css.git'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+        <!-- <div class="details-container color-container">
+          <div class="article-container">
+            <img id="m" src="assets/amzone.png" alt="Project 2" id="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <p>TO-DO-App</p>
+          <p class="tech-used">Technologies: HTML, CSS, JavaScript</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Gulshankumar1450'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Gulshankumar1450/tribute-page.html.css.git'">
+              Live Demo
+            </button>
+          </div>
+        </div> -->
+
+
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/Create a Responsive To-Do List App using HTML, CSS, and JavaScript.gif" alt="Project 3"
+              class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">ProjectThree</h2>
+          <p>To-do-App</p>
+          <p class="tech-used">Technologies: HTML, CSS, JavaScript</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Gulshankumar1450'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://to-do-app-rho-drab.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/Screenshot 2025-04-02 095140.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Four</h2>
+          <p>Video-Call-App</p>
+          <p class="tech-used">Technologies: HTML, TsailwindCss, JavaScript, React.js</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Gulshankuamr/meet-vidchat-app.git'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://meet-vidchat-app-git-main-gulshan73939314-gmailcoms-projects.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/1ac8165da9c37e7281d056f32eed731f.gif" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Five</h2>
+          <p>Myntra-Website</p>
+          <p class="tech-used">Technologies: HTML, Bootstrap, Css, JavaScript, React.js</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Gulshankumar1450'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://to-do-app-rho-drab.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">Gulshan73939314@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/gulshan-kumar-61b446253/">LinkedIn</a></p>
+
+        <img
+          src="/assets/trendy-telephone-icon-flat-style-receive-phone-call-design-element-for-web-and-mobile-application-telephone-symbol-free-png.webp"
+          alt="phone no." class="icon contact-icon phone no." />
+        <p><a href="phone no.">7393931450</a></p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+   
+  </footer>
+
+
+  <!-- contect -->
+
+
+  <section id="contact">
+   
+
+    <div class="new_home_web">
+      <div class="responsive-container-block big-container">
+        <img  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw65.png " alt="" class="imgBG">
+        <div class="responsive-container-block textContainer">
+          <div class="topHead">
+            <p class="text-blk heading">
+              More
+              <span class="orangeText">About</span>
+            </p>
+            <div class="orangeLine" id="w-c-s-bgc_p-2-dm-id"></div>
+          </div>
+          <p class="text-blk subHeading">
+            <!-- Subheading text can be added here if needed -->
+          </p>
+          <!-- Button for triggering the modal -->
+        
+          <button id="contact-button" class="contact-button">
+            Get in touch
+          </button>
+
+          <!-- Description box (initially hidden) -->
+          <div id="contact-description" class="contact-description" style="display:none;">
+            <h1>Introduction to <span class="highlight">[GULSHAN KUMAR]</span></h1>
+
+            <p>Hello, my name is <span class="highlight">[Gulsha Kumar]</span>, and I am currently pursuing a Master’s
+              in Computer Applications (MCA) at Dr. Ram Manohar Lohia Avadh University in Ayodhya. I’m in my second
+              year, and my passion for technology, especially in the field of software development and web technologies,
+              continues to grow each day. I am eager to expand my knowledge and skills in areas such as web development,
+              frontend engineering, and the MERN stack.</p>
+
+            <h2>Educational Background</h2>
+            <p>I am pursuing my MCA degree to gain an in-depth understanding of computer science principles. I have
+              taken courses in software engineering, data structures, algorithms, and database management. This
+              coursework has enabled me to develop strong technical skills, which I am eager to apply in practical
+              settings.</p>
+
+            <p><strong>Current Degree:</strong> Master of Computer Applications (MCA)</p>
+            <p><strong>University:</strong> Dr. Ram Manohar Lohia Avadh University</p>
+            <p><strong>Year:</strong> Second Year</p>
+            <p><strong>Specialization:</strong> Software Development, Web Development</p>
+
+            <p>I am also highly invested in learning modern web technologies and tools. Currently, I am working on a
+              project using Next.js with Tailwind CSS for the frontend. I’m adding responsiveness to it without removing
+              existing styles or classes, and I am passionate about maintaining clean and efficient code.</p>
+
+            <h2>Professional Experience</h2>
+            <p>Along with my academic journey, I am gaining practical experience by working as a Frontend Intern at
+              ByteUprise, a company that specializes in cutting-edge technology solutions. In my role, I am enhancing my
+              skills in frontend web development, particularly working with React.js, Next.js, and CSS frameworks like
+              Tailwind CSS.</p>
+
+            <p>Working in a dynamic team at ByteUprise has helped me hone my problem-solving abilities and deepen my
+              understanding of web development. I actively collaborate with senior developers and contribute to live
+              projects, ensuring the user interface (UI) is seamless and visually appealing.</p>
+
+            <p><strong>Internship Role:</strong> Frontend Developer</p>
+            <p><strong>Company:</strong> ByteUprise</p>
+            <p><strong>Skills Applied:</strong> React.js, Next.js, Tailwind CSS, Git Version Control</p>
+
+            <h2>Technical Skills</h2>
+            <p>My core skills are focused on both the backend and frontend development. I have hands-on experience with
+              various web development tools and frameworks that allow me to create interactive and responsive websites.
+              I have a deep interest in:</p>
+
+            <p><strong>Frontend Technologies:</strong> HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS</p>
+            <p><strong>Backend Technologies:</strong> Node.js, Express.js, MongoDB (MERN Stack)</p>
+            <p><strong>Version Control:</strong> Git</p>
+            <p><strong>Database Management:</strong> MySQL, MongoDB</p>
+            <p><strong>Operating Systems:</strong> Windows, Linux</p>
+
+            <h2>Current Projects</h2>
+
+            <h3>Company Project at ByteUprise:</h3>
+            <p>I am currently working on a web application for ByteUprise using React.js and Next.js. This project
+              involves developing a fully responsive user interface and integrating third-party APIs to display
+              real-time data.</p>
+
+            <h3>Personal Project - Weather App:</h3>
+            <p>I am also working on a personal project — a weather app built with JavaScript, which fetches real-time
+              data from an external API. This app allows users to check weather forecasts for their location, adding a
+              functional touch to my knowledge of APIs.</p>
+
+            <h2>Academic Projects</h2>
+
+            <h3>Document Management System (MATLAB):</h3>
+            <p>I have worked on a project where I designed and implemented a document management system using MATLAB.
+              The project required me to manage various document types, implement search functionalities, and design an
+              efficient system for users.</p>
+
+            <h3>Student Fees Management System (MATLAB):</h3>
+            <p>Another project I worked on is a student fees management system. This system allows educational
+              institutions to track fee payments, generate receipts, and manage student records. It was a great
+              opportunity to explore database handling and algorithm optimization.</p>
+
+            <h2>Goals and Aspirations</h2>
+
+            <h3>Short-Term Goals:</h3>
+            <ul>
+              <li>Finish my MCA program with distinction.</li>
+              <li>Gain more hands-on experience in React.js and MERN stack development.</li>
+              <li>Contribute to open-source projects to further improve my coding skills.</li>
+            </ul>
+
+            <h3>Long-Term Goals:</h3>
+            <ul>
+              <li>Become a full-stack developer and work on larger-scale web applications.</li>
+              <li>Work in a global tech company and take on leadership roles in tech development.</li>
+              <li>Continue to learn new technologies and stay updated with industry trends.</li>
+            </ul>
+
+            <h2>Soft Skills and Strengths</h2>
+            <p>In addition to technical skills, I strongly believe in developing soft skills that are necessary for
+              success in the tech industry. I possess excellent communication and teamwork skills, which allow me to
+              collaborate effectively with others. I am also highly adaptable and enjoy taking on new challenges.
+              Problem-solving is one of my key strengths, and I always approach problems analytically and strategically.
+            </p>
+
+            <p><strong>Strong Analytical Skills:</strong> Ability to break down complex problems into manageable
+              components.</p>
+            <p><strong>Adaptability:</strong> Quick to learn new tools and technologies.</p>
+            <p><strong>Team Collaboration:</strong> Comfortable working in both independent and team settings.</p>
+            <p><strong>Time Management:</strong> Capable of prioritizing tasks and meeting deadlines efficiently.</p>
+
+            <h2>Conclusion</h2>
+            <p>To sum up, I am passionate about learning and growing in the field of web development. I am always
+              looking for opportunities to learn new technologies, collaborate with others, and contribute to exciting
+              projects. I am excited to continue my journey in technology, where I can leverage my skills and passion to
+              make a meaningful impact.</p>
+
+            <p>Please feel free to contact me if you have any questions or if you would like to discuss potential
+              collaborations or opportunities in the field of web development or technology.</p>
+
+            <p>Thank you for taking the time to read my introduction.</p>
+
+            <p><strong>Best regards,</strong></p>
+            <p><span class="highlight">[Gulshan Kumar]</span></p>
+            <p><span class="highlight">[gulshan73939314@gmail.com]</span></p>
+            <p><span class="highlight">[7393931450]</span></p>
+
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Add JavaScript to toggle the description visibility -->
+      <script>
+        document.getElementById("contact-button").addEventListener("click", function () {
+          var description = document.getElementById("contact-description");
+          if (description.style.display === "none" || description.style.display === "") {
+            description.style.display = "block"; // Show description
+          } else {
+            description.style.display = "none"; // Hide description
+          }
+        });
+      </script>
+
+     
+
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
